@@ -4,7 +4,7 @@ This Terraform module creates a keypair in AWS and creates a local file which is
 Usage:
 
 module "ssh-keypair" {
-  source  = "muhammad9970/ssh-keypair/aws"
+  source    = "muhammad9970/ssh-keypair/aws"
   version = "1.0.0"
   key_name = var.key_name
 }
