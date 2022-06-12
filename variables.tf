@@ -5,6 +5,6 @@ variable "key_name" {
 
 variable "store_in_root" {
   type        = bool
-  description = "Store key in root of terraform"
+  description = "Store key in current working directory"
   default     = true
 }
